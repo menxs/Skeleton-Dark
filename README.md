@@ -1,6 +1,7 @@
 # [Skeleton-Dark](http://getskeleton.com)
 
 Skeleton-Dark is an (un)official Dark version of [Dave Gamache's](https://twitter.com/dhg) Skeleton Framework. It featues a dark theme switch based on [this stackoverflow implementation](https://stackoverflow.com/questions/56300132/how-to-override-css-prefers-color-scheme-setting).
+
 -----
 
 Skeleton is a simple, responsive boilerplate to kickstart any responsive project.
