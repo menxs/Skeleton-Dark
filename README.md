@@ -1,4 +1,4 @@
-# [Skeleton-Dark](http://getskeleton.com)
+# [Skeleton-Dark](https://menxs.github.io/Skeleton-Dark/)
 
 Skeleton-Dark is an (un)official Dark version of [Dave Gamache's](https://twitter.com/dhg) Skeleton Framework. It featues a dark theme switch based on [this stackoverflow implementation](https://stackoverflow.com/questions/56300132/how-to-override-css-prefers-color-scheme-setting).
 
@@ -6,13 +6,13 @@ Skeleton-Dark is an (un)official Dark version of [Dave Gamache's](https://twitte
 
 Skeleton is a simple, responsive boilerplate to kickstart any responsive project.
 
-Check out <http://getskeleton.com> for documentation and details.
+Check out <https://menxs.github.io/Skeleton-Dark/> for documentation and details.
 
 ## Getting started
 
 There are a couple ways to download Dark Skeleton:
-- [Download the zip](https://github.com/dhg/Skeleton/releases/download/2.0.4/Skeleton-2.0.4.zip)
-- Clone the repo: `git clone https://github.com/dhg/Skeleton.git`
+- [Download the zip](https://github.com/menxs/Skeleton-Dark/releases/download/2.0.5/Skeleton-2.0.5.zip)
+- Clone the repo: `git clone https://github.com/menxs/Skeleton-Dark.git`
 
 
 ### What's in the download?
@@ -40,7 +40,7 @@ Skeleton is lightweight and simple. It styles only raw HTML elements (with a few
 
 ## License
 
-All parts of Skeleton are free to use and abuse under the [open-source MIT license](https://github.com/dhg/Skeleton/blob/master/LICENSE.md).
+All parts of Skeleton are free to use and abuse under the [open-source MIT license](https://github.com/menxs/Skeleton-Dark/blob/master/LICENSE.md).
 
 
 ## Colophon
@@ -51,3 +51,5 @@ Skeleton was built using [Sublime Text 3](http://www.sublimetext.com/3) and desi
 ## Acknowledgement
 
 Skeleton was created by [Dave Gamache](https://twitter.com/dhg) for a better web.
+
+Skeleton Dark was ctreated by [Diego Valcárcel Barbeito](https://menxs.github.io) for a better web.
