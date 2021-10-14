@@ -11,7 +11,7 @@ Check out <https://menxs.github.io/Skeleton-Dark/> for documentation and details
 ## Getting started
 
 There are a couple ways to download Dark Skeleton:
-- [Download the zip](https://github.com/menxs/Skeleton-Dark/releases/download/2.0.5/Skeleton-2.0.5.zip)
+- [Download the zip](https://github.com/menxs/Skeleton-Dark/archive/refs/tags/v2.0.5.zip)
 - Clone the repo: `git clone https://github.com/menxs/Skeleton-Dark.git`
 
 
