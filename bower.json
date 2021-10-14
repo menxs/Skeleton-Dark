@@ -1,19 +1,16 @@
 {
-  "name": "skeleton",
+  "name": "Skeleton-Dark",
   "version": "2.0.4",
   "homepage": "http://getskeleton.com/",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/dhg/Skeleton"
-  },
   "authors": [
-    "Dave Gamache <hello@davegamache.com> (http://davegamache.com/)"
+    "Diego Valcárcel Barbeito <diego.valcarcel.barbeito@gmail.com> (https://menxs.github.io/)"
   ],
-  "description": "Skeleton is a dead-simple, responsive boilerplate to kickstart any responsive project.",
-  "main": "css/skeleton.css",
+  "description": "The (un)official Dark Version of Skeleton (2.0.4): A Dead Simple, Responsive Boilerplate with dark theme integrated.",
+  "main": "css/dark-skeleton.css",
   "keywords": [
-    "css",
     "skeleton",
+    "css",
+    "dark",
     "responsive",
     "boilerplate"
   ],
