@@ -1,23 +1,28 @@
-# [Skeleton](http://getskeleton.com)
+# [Skeleton-Dark](http://getskeleton.com)
+
+Skeleton-Dark is an (un)official Dark version of [Dave Gamache's](https://twitter.com/dhg) Skeleton Framework. It featues a dark theme switch based on [this stackoverflow implementation](https://stackoverflow.com/questions/56300132/how-to-override-css-prefers-color-scheme-setting).
+-----
+
 Skeleton is a simple, responsive boilerplate to kickstart any responsive project.
 
 Check out <http://getskeleton.com> for documentation and details.
 
 ## Getting started
 
-There are a couple ways to download Skeleton:
+There are a couple ways to download Dark Skeleton:
 - [Download the zip](https://github.com/dhg/Skeleton/releases/download/2.0.4/Skeleton-2.0.4.zip)
-- Clone the repo: `git clone https://github.com/dhg/Skeleton.git` (Note: this is under active development, so if you're looking for stable and safe, use the zipped download)
+- Clone the repo: `git clone https://github.com/dhg/Skeleton.git`
 
 
 ### What's in the download?
 
-The download includes Skeleton's CSS, Normalize CSS as a reset, a sample favicon, and an index.html as a starting point.
+The download includes Dark Skeleton's CSS, Skeleton's CSS, Normalize CSS as a reset, a sample favicon, and an index.html as a starting point.
 
 ```
-Skeleton/
+Dark-Skeleton/
 ├── index.html
 ├── css/
+│   ├── dark-skeleton.css
 │   ├── normalize.min.css
 │   └── skeleton.css
 └── images/
@@ -32,30 +37,9 @@ Skeleton is lightweight and simple. It styles only raw HTML elements (with a few
 - It's a starting point, not a UI framework
 - No compiling or installing...just vanilla CSS
 
-
-## Browser support
-
-- Chrome latest
-- Firefox latest
-- Opera latest
-- Safari latest
-- IE latest
-
-The above list is non-exhaustive. Skeleton works perfectly with almost all older versions of the browsers above, though IE certainly has large degradation prior to IE9.
-
-
 ## License
 
 All parts of Skeleton are free to use and abuse under the [open-source MIT license](https://github.com/dhg/Skeleton/blob/master/LICENSE.md).
-
-
-## Extensions
-
-The following are extensions to Skeleton built by the community. They are not officially supported, but all have been tested and are compatible with v2.0 (exact release noted):
-- [Skeleton on LESS](https://github.com/whatsnewsaes/Skeleton-less): Skeleton built with LESS for easier replacement of grid, color, and media queries. (Last update was to match v2.0.1)
-- [Skeleton on Sass](https://github.com/whatsnewsaes/Skeleton-Sass): Skeleton built with Sass for easier replacement of grid, color, and media queries. (Last update was to match v2.0.1)
-
-Have an extension you want to see here? Just shoot an email to hi@getskeleton.com with your extension!
 
 
 ## Colophon
