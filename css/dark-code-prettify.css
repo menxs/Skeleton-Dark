@@ -1,0 +1,119 @@
+/*! Color themes for Google Code Prettify | MIT License | github.com/jmblog/color-themes-for-google-code-prettify */
+[data-theme="dark"] .prettyprint {
+  background: #1d1f21;
+  font-family: Menlo, "Bitstream Vera Sans Mono", "DejaVu Sans Mono", Monaco, Consolas, monospace;
+  border: 0 !important;
+}
+
+[data-theme="dark"] .pln {
+  color: #c5c8c6;
+}
+
+/* Specify class=linenums on a pre to get line numbering */
+[data-theme="dark"] ol.linenums {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #969896;
+}
+
+[data-theme="dark"] li.L0,
+[data-theme="dark"] li.L1,
+[data-theme="dark"] li.L2,
+[data-theme="dark"] li.L3,
+[data-theme="dark"] li.L4,
+[data-theme="dark"] li.L5,
+[data-theme="dark"] li.L6,
+[data-theme="dark"] li.L7,
+[data-theme="dark"] li.L8,
+[data-theme="dark"] li.L9 {
+  padding-left: 1em;
+  background-color: #1d1f21;
+  list-style-type: decimal;
+}
+
+@media screen {
+
+  /* string content */
+
+  [data-theme="dark"] .str {
+    color: #b5bd68;
+  }
+
+  /* keyword */
+
+  [data-theme="dark"] .kwd {
+    color: #b294bb;
+  }
+
+  /* comment */
+
+  [data-theme="dark"] .com {
+    color: #969896;
+  }
+
+  /* type name */
+
+  [data-theme="dark"] .typ {
+    color: #81a2be;
+  }
+
+  /* literal value */
+
+  [data-theme="dark"] .lit {
+    color: #de935f;
+  }
+
+  /* punctuation */
+
+  [data-theme="dark"] .pun {
+    color: #c5c8c6;
+  }
+
+  /* lisp open bracket */
+
+  [data-theme="dark"] .opn {
+    color: #c5c8c6;
+  }
+
+  /* lisp close bracket */
+
+  [data-theme="dark"] .clo {
+    color: #c5c8c6;
+  }
+
+  /* markup tag name */
+
+  [data-theme="dark"] .tag {
+    color: #cc6666;
+  }
+
+  /* markup attribute name */
+
+  [data-theme="dark"] .atn {
+    color: #de935f;
+  }
+
+  /* markup attribute value */
+
+  [data-theme="dark"] .atv {
+    color: #8abeb7;
+  }
+
+  /* declaration */
+
+  [data-theme="dark"] .dec {
+    color: #de935f;
+  }
+
+  /* variable name */
+
+  [data-theme="dark"] .var {
+    color: #cc6666;
+  }
+
+  /* function name */
+
+  [data-theme="dark"] .fun {
+    color: #81a2be;
+  }
+}

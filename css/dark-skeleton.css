@@ -1,0 +1,157 @@
+:root {
+  --font-color                  : #222;
+  --bg-color                    : #fff;
+  --link-color                  : #1EAEDB;
+  --link-color-hover            : #0FA0CE;
+  --button-color                : #555;
+  --button-border               : #bbb;
+  --button-color-hover          : #333;
+  --button-border-hover         : #888;
+  --button-primary-color        : #FFF;
+  --button-primary-bg           : #33C3F0;
+  --button-primary-border       : #33C3F0;
+  --button-primary-color-hover  : #FFF;
+  --button-primary-bg-hover     : #1EAEDB;
+  --button-primary-border-hover : #1EAEDB;
+  --form-input-bg               : #fff;
+  --form-input-border           : #D1D1D1;
+  --form-input-border-focus     : #33C3F0;
+  --code-color                  : #222;
+  --code-bg                     : #F1F1F1;
+  --code-border                 : #E1E1E1;
+  --table-td                    : #E1E1E1;
+}
+
+/* Dark Theme */
+
+[data-theme="dark"] {
+  --font-color                  : #ddd;
+  --bg-color                    : #222;
+  --link-color                  : #0FA0CE;
+  --link-color-hover            : #1EAEDB;
+  --button-color                : #bbb;
+  --button-border               : #888;
+  --button-color-hover          : #ccc;
+  --button-border-hover         : #bbb;
+  --button-primary-color        : #222;
+  --button-primary-bg           : #1EAEDB;
+  --button-primary-border       : #1EAEDB;
+  --button-primary-color-hover  : #222;
+  --button-primary-bg-hover     : #33C3F0;
+  --button-primary-border-hover : #33C3F0;
+  --form-input-bg               : #222;
+  --form-input-border           : #4E4E4E;
+  --form-input-border-focus     : #33C3F0;
+  --code-color                  : #ddd;
+  --code-bg                     : #2E2E2E;
+  --code-border                 : #3E3E3E;
+  --table-td                    : #3E3E3E;
+}
+
+/* Body  */
+
+body {
+  color: var(--font-color);
+  background: var(--bg-color);
+}
+
+/* Links */
+
+a {
+color: var(--link-color);
+}
+a:hover {
+color: var(--link-color-hover);
+}
+
+/* Buttons */
+
+.button,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+color: var(--button-color);
+border-color: var(--button-border);
+}
+
+.button:hover,
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover,
+.button:focus,
+button:focus,
+input[type="submit"]:focus,
+input[type="reset"]:focus,
+input[type="button"]:focus {
+color: var(--button-color-hover);
+border-color: var(--button-border-hover);
+}
+
+.button.button-primary,
+button.button-primary,
+input[type="submit"].button-primary,
+input[type="reset"].button-primary,
+input[type="button"].button-primary {
+color: var(--button-primary-color);
+background-color: var(--button-primary-bg);
+border-color: var(--button-primary-border);
+}
+
+.button.button-primary:hover,
+button.button-primary:hover,
+input[type="submit"].button-primary:hover,
+input[type="reset"].button-primary:hover,
+input[type="button"].button-primary:hover,
+.button.button-primary:focus,
+button.button-primary:focus,
+input[type="submit"].button-primary:focus,
+input[type="reset"].button-primary:focus,
+input[type="button"].button-primary:focus {
+color: var(--button-primary-color-hover);
+background-color: var(--button-primary-bg-hover);
+border-color: var(--button-primary-border-hover);
+}
+
+/* Forms */
+
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+textarea,
+select {
+background-color:var(--form-input-bg);
+border-color: var(--form-input-border);
+}
+
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="search"]:focus,
+input[type="text"]:focus,
+input[type="tel"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+textarea:focus,
+select:focus {
+border-color: var(--form-input-border-focus);
+}
+
+/* Code */
+
+code {
+color: var(--code-color);
+background: var(--code-bg);
+border: var(--code-border);
+}
+
+/* Tables */
+
+th,
+td {
+border-bottom-color: var(--table-td);
+}
