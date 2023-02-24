@@ -20,32 +20,35 @@
   --code-bg                     : #F1F1F1;
   --code-border                 : #E1E1E1;
   --table-td                    : #E1E1E1;
+  color-scheme                  : light, dark;
 }
 
 /* Dark Theme */
 
-[data-theme="dark"] {
-  --font-color                  : #ddd;
-  --bg-color                    : #222;
-  --link-color                  : #0FA0CE;
-  --link-color-hover            : #1EAEDB;
-  --button-color                : #bbb;
-  --button-border               : #888;
-  --button-color-hover          : #ccc;
-  --button-border-hover         : #bbb;
-  --button-primary-color        : #222;
-  --button-primary-bg           : #1EAEDB;
-  --button-primary-border       : #1EAEDB;
-  --button-primary-color-hover  : #222;
-  --button-primary-bg-hover     : #33C3F0;
-  --button-primary-border-hover : #33C3F0;
-  --form-input-bg               : #222;
-  --form-input-border           : #4E4E4E;
-  --form-input-border-focus     : #33C3F0;
-  --code-color                  : #ddd;
-  --code-bg                     : #2E2E2E;
-  --code-border                 : #3E3E3E;
-  --table-td                    : #3E3E3E;
+@media (prefers-color-scheme:dark) {
+  :root {
+    --font-color                  : #ddd;
+    --bg-color                    : #222;
+    --link-color                  : #0FA0CE;
+    --link-color-hover            : #1EAEDB;
+    --button-color                : #bbb;
+    --button-border               : #888;
+    --button-color-hover          : #ccc;
+    --button-border-hover         : #bbb;
+    --button-primary-color        : #222;
+    --button-primary-bg           : #1EAEDB;
+    --button-primary-border       : #1EAEDB;
+    --button-primary-color-hover  : #222;
+    --button-primary-bg-hover     : #33C3F0;
+    --button-primary-border-hover : #33C3F0;
+    --form-input-bg               : #222;
+    --form-input-border           : #4E4E4E;
+    --form-input-border-focus     : #33C3F0;
+    --code-color                  : #ddd;
+    --code-bg                     : #2E2E2E;
+    --code-border                 : #3E3E3E;
+    --table-td                    : #3E3E3E;
+  }
 }
 
 /* Body  */
